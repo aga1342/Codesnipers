@@ -210,7 +210,7 @@ local mobLabel = Instance.new("TextLabel", modePill)
 mobLabel.Size = UDim2.new(0.5, 0, 1, 0)
 mobLabel.Position = UDim2.new(0.5, 0, 0, 0)
 mobLabel.BackgroundTransparency = 1
-mobLabel.Text = "MOB"
+mobLabel.Text = ""
 mobLabel.Font = Enum.Font.GothamBold
 mobLabel.TextSize = 10
 mobLabel.TextColor3 = isMobileMode and Color3.fromRGB(210, 210, 215) or Color3.fromRGB(90, 90, 95)
@@ -524,7 +524,7 @@ local function spawnDiscordTag(char)
     local lbl = Instance.new("TextLabel", bb)
     lbl.Size = UDim2.new(1, 0, 1, 0)
     lbl.BackgroundTransparency = 1
-    lbl.Text = "discord.gg/k7hub"
+    lbl.Text = ""
     lbl.Font = Enum.Font.GothamBold
     lbl.TextSize = 14
     lbl.TextStrokeTransparency = 0.5
