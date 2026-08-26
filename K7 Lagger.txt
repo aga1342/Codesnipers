@@ -229,17 +229,17 @@ mobClick.BackgroundTransparency = 1
 mobClick.Text = ""
 mobClick.ZIndex = 9
 
-local lockButton = Instance.new("TextButton", titleBar)
-lockButton.BackgroundTransparency = 1
-lockButton.Position = UDim2.new(1, -(modePillW + 8 + 28), 0.5, -11)
-lockButton.Size = UDim2.new(0, 22, 0, 22)
-lockButton.Font = UI_THEME.Font
-lockButton.TextSize = 15
-lockButton.TextColor3 = isWindowLocked and Color3.fromRGB(255, 255, 255) or Color3.fromRGB(120, 120, 125)
-lockButton.AutoButtonColor = false
-lockButton.ZIndex = 6
-lockButton.Text = isWindowLocked and "🔒" or "🔓"
-lockButton.Visible = isMobileMode
+
+
+
+
+
+
+
+
+
+
+
 
 lockButton.MouseButton1Click:Connect(function()
     isWindowLocked = not isWindowLocked
