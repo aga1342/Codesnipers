@@ -203,18 +203,18 @@ pcLabel.BackgroundTransparency = 1
 pcLabel.Text = "PC"
 pcLabel.Font = Enum.Font.GothamBold
 pcLabel.TextSize = 10
-pcLabel.TextColor3 = isMobileMode and Color3.fromRGB(90, 90, 95) or Color3.fromRGB(210, 210, 215)
+
 pcLabel.ZIndex = 8
 
-local mobLabel = Instance.new("TextLabel", modePill)
-mobLabel.Size = UDim2.new(0.5, 0, 1, 0)
-mobLabel.Position = UDim2.new(0.5, 0, 0, 0)
-mobLabel.BackgroundTransparency = 1
-mobLabel.Text = ""
-mobLabel.Font = Enum.Font.GothamBold
-mobLabel.TextSize = 10
-mobLabel.TextColor3 = isMobileMode and Color3.fromRGB(210, 210, 215) or Color3.fromRGB(90, 90, 95)
-mobLabel.ZIndex = 8
+
+
+
+
+
+
+
+
+
 
 local pcClick = Instance.new("TextButton", modePill)
 pcClick.Size = UDim2.new(0.5, 0, 1, 0)
